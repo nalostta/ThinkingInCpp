@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nalostta/sdk/ThinkingInCpp
+CMAKE_SOURCE_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nalostta/sdk/ThinkingInCpp/build
+CMAKE_BINARY_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/sdk/ThinkingInCpp/build/InheritanceAndComposition//CMakeFiles/progress.marks
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/InheritanceAndComposition//CMakeFiles/progress.marks
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/clean
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,246 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_car.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_car.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_car.dir/rule
+
+# Convenience name for target.
+c14_car: InheritanceAndComposition/CMakeFiles/c14_car.dir/rule
+.PHONY : c14_car
+
+# fast build rule for target.
+c14_car/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/build
+.PHONY : c14_car/fast
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule
+
+# Convenience name for target.
+c14_combined: InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule
+.PHONY : c14_combined
+
+# fast build rule for target.
+c14_combined/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/build
+.PHONY : c14_combined/fast
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule
+
+# Convenience name for target.
+c14_p1: InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule
+.PHONY : c14_p1
+
+# fast build rule for target.
+c14_p1/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/build
+.PHONY : c14_p1/fast
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule
+
+# Convenience name for target.
+c14_p2: InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule
+.PHONY : c14_p2
+
+# fast build rule for target.
+c14_p2/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/build
+.PHONY : c14_p2/fast
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule
+
+# Convenience name for target.
+c14_p3: InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule
+.PHONY : c14_p3
+
+# fast build rule for target.
+c14_p3/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/build
+.PHONY : c14_p3/fast
+
+# Convenience name for target.
+InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule
+
+# Convenience name for target.
+c14_p4: InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule
+.PHONY : c14_p4
+
+# fast build rule for target.
+c14_p4/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/build
+.PHONY : c14_p4/fast
+
+c14_car.o: c14_car.cpp.o
+.PHONY : c14_car.o
+
+# target to build an object file
+c14_car.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/c14_car.cpp.o
+.PHONY : c14_car.cpp.o
+
+c14_car.i: c14_car.cpp.i
+.PHONY : c14_car.i
+
+# target to preprocess a source file
+c14_car.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/c14_car.cpp.i
+.PHONY : c14_car.cpp.i
+
+c14_car.s: c14_car.cpp.s
+.PHONY : c14_car.s
+
+# target to generate assembly for a file
+c14_car.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/c14_car.cpp.s
+.PHONY : c14_car.cpp.s
+
+c14_combined.o: c14_combined.cpp.o
+.PHONY : c14_combined.o
+
+# target to build an object file
+c14_combined.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/c14_combined.cpp.o
+.PHONY : c14_combined.cpp.o
+
+c14_combined.i: c14_combined.cpp.i
+.PHONY : c14_combined.i
+
+# target to preprocess a source file
+c14_combined.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/c14_combined.cpp.i
+.PHONY : c14_combined.cpp.i
+
+c14_combined.s: c14_combined.cpp.s
+.PHONY : c14_combined.s
+
+# target to generate assembly for a file
+c14_combined.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/c14_combined.cpp.s
+.PHONY : c14_combined.cpp.s
+
+c14_p1.o: c14_p1.cpp.o
+.PHONY : c14_p1.o
+
+# target to build an object file
+c14_p1.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/c14_p1.cpp.o
+.PHONY : c14_p1.cpp.o
+
+c14_p1.i: c14_p1.cpp.i
+.PHONY : c14_p1.i
+
+# target to preprocess a source file
+c14_p1.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/c14_p1.cpp.i
+.PHONY : c14_p1.cpp.i
+
+c14_p1.s: c14_p1.cpp.s
+.PHONY : c14_p1.s
+
+# target to generate assembly for a file
+c14_p1.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/c14_p1.cpp.s
+.PHONY : c14_p1.cpp.s
+
+c14_p2.o: c14_p2.cpp.o
+.PHONY : c14_p2.o
+
+# target to build an object file
+c14_p2.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/c14_p2.cpp.o
+.PHONY : c14_p2.cpp.o
+
+c14_p2.i: c14_p2.cpp.i
+.PHONY : c14_p2.i
+
+# target to preprocess a source file
+c14_p2.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/c14_p2.cpp.i
+.PHONY : c14_p2.cpp.i
+
+c14_p2.s: c14_p2.cpp.s
+.PHONY : c14_p2.s
+
+# target to generate assembly for a file
+c14_p2.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/c14_p2.cpp.s
+.PHONY : c14_p2.cpp.s
+
+c14_p3.o: c14_p3.cpp.o
+.PHONY : c14_p3.o
+
+# target to build an object file
+c14_p3.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/c14_p3.cpp.o
+.PHONY : c14_p3.cpp.o
+
+c14_p3.i: c14_p3.cpp.i
+.PHONY : c14_p3.i
+
+# target to preprocess a source file
+c14_p3.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/c14_p3.cpp.i
+.PHONY : c14_p3.cpp.i
+
+c14_p3.s: c14_p3.cpp.s
+.PHONY : c14_p3.s
+
+# target to generate assembly for a file
+c14_p3.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/c14_p3.cpp.s
+.PHONY : c14_p3.cpp.s
+
+c14_p4.o: c14_p4.cpp.o
+.PHONY : c14_p4.o
+
+# target to build an object file
+c14_p4.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/c14_p4.cpp.o
+.PHONY : c14_p4.cpp.o
+
+c14_p4.i: c14_p4.cpp.i
+.PHONY : c14_p4.i
+
+# target to preprocess a source file
+c14_p4.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/c14_p4.cpp.i
+.PHONY : c14_p4.cpp.i
+
+c14_p4.s: c14_p4.cpp.s
+.PHONY : c14_p4.s
+
+# target to generate assembly for a file
+c14_p4.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/c14_p4.cpp.s
+.PHONY : c14_p4.cpp.s
 
 # Help Target
 help:
@@ -124,6 +352,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... c14_car"
+	@echo "... c14_combined"
+	@echo "... c14_p1"
+	@echo "... c14_p2"
+	@echo "... c14_p3"
+	@echo "... c14_p4"
+	@echo "... c14_car.o"
+	@echo "... c14_car.i"
+	@echo "... c14_car.s"
+	@echo "... c14_combined.o"
+	@echo "... c14_combined.i"
+	@echo "... c14_combined.s"
+	@echo "... c14_p1.o"
+	@echo "... c14_p1.i"
+	@echo "... c14_p1.s"
+	@echo "... c14_p2.o"
+	@echo "... c14_p2.i"
+	@echo "... c14_p2.s"
+	@echo "... c14_p3.o"
+	@echo "... c14_p3.i"
+	@echo "... c14_p3.s"
+	@echo "... c14_p4.o"
+	@echo "... c14_p4.i"
+	@echo "... c14_p4.s"
 .PHONY : help
 
 
@@ -135,6 +387,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

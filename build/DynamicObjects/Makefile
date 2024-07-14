@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nalostta/sdk/ThinkingInCpp
+CMAKE_SOURCE_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nalostta/sdk/ThinkingInCpp/build
+CMAKE_BINARY_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/sdk/ThinkingInCpp/build/DynamicObjects//CMakeFiles/progress.marks
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/DynamicObjects//CMakeFiles/progress.marks
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/clean
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+DynamicObjects/CMakeFiles/c13_p1.dir/rule:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/CMakeFiles/c13_p1.dir/rule
+.PHONY : DynamicObjects/CMakeFiles/c13_p1.dir/rule
+
+# Convenience name for target.
+c13_p1: DynamicObjects/CMakeFiles/c13_p1.dir/rule
+.PHONY : c13_p1
+
+# fast build rule for target.
+c13_p1/fast:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/build
+.PHONY : c13_p1/fast
+
+c13_p1.o: c13_p1.cpp.o
+.PHONY : c13_p1.o
+
+# target to build an object file
+c13_p1.cpp.o:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/c13_p1.cpp.o
+.PHONY : c13_p1.cpp.o
+
+c13_p1.i: c13_p1.cpp.i
+.PHONY : c13_p1.i
+
+# target to preprocess a source file
+c13_p1.cpp.i:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/c13_p1.cpp.i
+.PHONY : c13_p1.cpp.i
+
+c13_p1.s: c13_p1.cpp.s
+.PHONY : c13_p1.s
+
+# target to generate assembly for a file
+c13_p1.cpp.s:
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/c13_p1.cpp.s
+.PHONY : c13_p1.cpp.s
 
 # Help Target
 help:
@@ -124,6 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... c13_p1"
+	@echo "... c13_p1.o"
+	@echo "... c13_p1.i"
+	@echo "... c13_p1.s"
 .PHONY : help
 
 
@@ -135,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

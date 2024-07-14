@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nalostta/sdk/ThinkingInCpp/src/Miscellaneous/ObjectsPvtVar.cpp" "Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o" "gcc" "Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o.d"
+  "/Users/nalostta/Desktop/sdk/ThinkingInCpp/src/Miscellaneous/ObjectsPvtVar.cpp" "Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o" "gcc" "Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o.d"
   )
 
 # Targets to which this target links.

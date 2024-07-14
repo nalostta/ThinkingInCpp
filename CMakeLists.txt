@@ -16,4 +16,3 @@ add_subdirectory(${SOURCE_DIR}/OperatorOverloading          ${CMAKE_BINARY_DIR}/
 add_subdirectory(${SOURCE_DIR}/Polymorphism                 ${CMAKE_BINARY_DIR}/Polymorphism)
 add_subdirectory(${SOURCE_DIR}/References                   ${CMAKE_BINARY_DIR}/References)
 add_subdirectory(${SOURCE_DIR}/Templates                    ${CMAKE_BINARY_DIR}/Templates)
-

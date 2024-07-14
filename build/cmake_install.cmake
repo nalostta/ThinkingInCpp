@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nalostta/sdk/ThinkingInCpp
+# Install script for directory: /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,67 +34,67 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/Constants/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Constants/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/ConstructorsDestructors/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/ConstructorsDestructors/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/CopyConstructors/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CopyConstructors/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/DynamicObjects/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/DynamicObjects/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/FunctionOverloading/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/FunctionOverloading/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/InheritanceAndComposition/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/InheritanceAndComposition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/Miscellaneous/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Miscellaneous/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/Namespaces/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Namespaces/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/OperatorOverloading/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/OperatorOverloading/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/Polymorphism/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Polymorphism/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/References/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/References/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/nalostta/sdk/ThinkingInCpp/build/Templates/cmake_install.cmake")
+  include("/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Templates/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -105,5 +105,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nalostta/sdk/ThinkingInCpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

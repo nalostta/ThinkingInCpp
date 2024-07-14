@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nalostta/sdk/ThinkingInCpp
+CMAKE_SOURCE_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nalostta/sdk/ThinkingInCpp/build
+CMAKE_BINARY_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/sdk/ThinkingInCpp/build/Miscellaneous//CMakeFiles/progress.marks
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/Miscellaneous//CMakeFiles/progress.marks
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/clean
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/preinstall
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Miscellaneous/CMakeFiles/ff1.dir/rule:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff1.dir/rule
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff1.dir/rule
 .PHONY : Miscellaneous/CMakeFiles/ff1.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ ff1: Miscellaneous/CMakeFiles/ff1.dir/rule
 
 # fast build rule for target.
 ff1/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/build
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/build
 .PHONY : ff1/fast
 
 # Convenience name for target.
 Miscellaneous/CMakeFiles/ff2.dir/rule:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff2.dir/rule
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff2.dir/rule
 .PHONY : Miscellaneous/CMakeFiles/ff2.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ ff2: Miscellaneous/CMakeFiles/ff2.dir/rule
 
 # fast build rule for target.
 ff2/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/build
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/build
 .PHONY : ff2/fast
 
 # Convenience name for target.
 Miscellaneous/CMakeFiles/opv.dir/rule:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/opv.dir/rule
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/opv.dir/rule
 .PHONY : Miscellaneous/CMakeFiles/opv.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ opv: Miscellaneous/CMakeFiles/opv.dir/rule
 
 # fast build rule for target.
 opv/fast:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/build
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/build
 .PHONY : opv/fast
 
 ObjectsPvtVar.o: ObjectsPvtVar.cpp.o
@@ -163,7 +163,7 @@ ObjectsPvtVar.o: ObjectsPvtVar.cpp.o
 
 # target to build an object file
 ObjectsPvtVar.cpp.o:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.o
 .PHONY : ObjectsPvtVar.cpp.o
 
 ObjectsPvtVar.i: ObjectsPvtVar.cpp.i
@@ -171,7 +171,7 @@ ObjectsPvtVar.i: ObjectsPvtVar.cpp.i
 
 # target to preprocess a source file
 ObjectsPvtVar.cpp.i:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.i
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.i
 .PHONY : ObjectsPvtVar.cpp.i
 
 ObjectsPvtVar.s: ObjectsPvtVar.cpp.s
@@ -179,7 +179,7 @@ ObjectsPvtVar.s: ObjectsPvtVar.cpp.s
 
 # target to generate assembly for a file
 ObjectsPvtVar.cpp.s:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.s
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/ObjectsPvtVar.cpp.s
 .PHONY : ObjectsPvtVar.cpp.s
 
 friend_fn1.o: friend_fn1.cpp.o
@@ -187,7 +187,7 @@ friend_fn1.o: friend_fn1.cpp.o
 
 # target to build an object file
 friend_fn1.cpp.o:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.o
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.o
 .PHONY : friend_fn1.cpp.o
 
 friend_fn1.i: friend_fn1.cpp.i
@@ -195,7 +195,7 @@ friend_fn1.i: friend_fn1.cpp.i
 
 # target to preprocess a source file
 friend_fn1.cpp.i:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.i
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.i
 .PHONY : friend_fn1.cpp.i
 
 friend_fn1.s: friend_fn1.cpp.s
@@ -203,7 +203,7 @@ friend_fn1.s: friend_fn1.cpp.s
 
 # target to generate assembly for a file
 friend_fn1.cpp.s:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.s
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/friend_fn1.cpp.s
 .PHONY : friend_fn1.cpp.s
 
 friend_fn2.o: friend_fn2.cpp.o
@@ -211,7 +211,7 @@ friend_fn2.o: friend_fn2.cpp.o
 
 # target to build an object file
 friend_fn2.cpp.o:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.o
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.o
 .PHONY : friend_fn2.cpp.o
 
 friend_fn2.i: friend_fn2.cpp.i
@@ -219,7 +219,7 @@ friend_fn2.i: friend_fn2.cpp.i
 
 # target to preprocess a source file
 friend_fn2.cpp.i:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.i
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.i
 .PHONY : friend_fn2.cpp.i
 
 friend_fn2.s: friend_fn2.cpp.s
@@ -227,7 +227,7 @@ friend_fn2.s: friend_fn2.cpp.s
 
 # target to generate assembly for a file
 friend_fn2.cpp.s:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.s
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/friend_fn2.cpp.s
 .PHONY : friend_fn2.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nalostta/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/nalostta/Desktop/sdk/ThinkingInCpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

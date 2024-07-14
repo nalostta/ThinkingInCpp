@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nalostta/sdk/ThinkingInCpp
+CMAKE_SOURCE_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nalostta/sdk/ThinkingInCpp/build
+CMAKE_BINARY_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/sdk/ThinkingInCpp/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles /Users/nalostta/Desktop/sdk/ThinkingInCpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,97 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named c13_p1
+
+# Build rule for target.
+c13_p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c13_p1
+.PHONY : c13_p1
+
+# fast build rule for target.
+c13_p1/fast:
+	$(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/build
+.PHONY : c13_p1/fast
+
+#=============================================================================
+# Target rules for targets named c14_car
+
+# Build rule for target.
+c14_car: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_car
+.PHONY : c14_car
+
+# fast build rule for target.
+c14_car/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/build
+.PHONY : c14_car/fast
+
+#=============================================================================
+# Target rules for targets named c14_combined
+
+# Build rule for target.
+c14_combined: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_combined
+.PHONY : c14_combined
+
+# fast build rule for target.
+c14_combined/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/build
+.PHONY : c14_combined/fast
+
+#=============================================================================
+# Target rules for targets named c14_p1
+
+# Build rule for target.
+c14_p1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_p1
+.PHONY : c14_p1
+
+# fast build rule for target.
+c14_p1/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/build
+.PHONY : c14_p1/fast
+
+#=============================================================================
+# Target rules for targets named c14_p2
+
+# Build rule for target.
+c14_p2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_p2
+.PHONY : c14_p2
+
+# fast build rule for target.
+c14_p2/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/build
+.PHONY : c14_p2/fast
+
+#=============================================================================
+# Target rules for targets named c14_p3
+
+# Build rule for target.
+c14_p3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_p3
+.PHONY : c14_p3
+
+# fast build rule for target.
+c14_p3/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/build
+.PHONY : c14_p3/fast
+
+#=============================================================================
+# Target rules for targets named c14_p4
+
+# Build rule for target.
+c14_p4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c14_p4
+.PHONY : c14_p4
+
+# fast build rule for target.
+c14_p4/fast:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/build
+.PHONY : c14_p4/fast
 
 #=============================================================================
 # Target rules for targets named ff1
@@ -163,6 +254,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... c13_p1"
+	@echo "... c14_car"
+	@echo "... c14_combined"
+	@echo "... c14_p1"
+	@echo "... c14_p2"
+	@echo "... c14_p3"
+	@echo "... c14_p4"
 	@echo "... ff1"
 	@echo "... ff2"
 	@echo "... opv"

@@ -54,10 +54,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nalostta/sdk/ThinkingInCpp
+CMAKE_SOURCE_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nalostta/sdk/ThinkingInCpp/build
+CMAKE_BINARY_DIR = /Users/nalostta/Desktop/sdk/ThinkingInCpp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -156,7 +156,7 @@ CopyConstructors/clean:
 # Directory level rules for directory DynamicObjects
 
 # Recursive "all" directory target.
-DynamicObjects/all:
+DynamicObjects/all: DynamicObjects/CMakeFiles/c13_p1.dir/all
 .PHONY : DynamicObjects/all
 
 # Recursive "preinstall" directory target.
@@ -164,7 +164,7 @@ DynamicObjects/preinstall:
 .PHONY : DynamicObjects/preinstall
 
 # Recursive "clean" directory target.
-DynamicObjects/clean:
+DynamicObjects/clean: DynamicObjects/CMakeFiles/c13_p1.dir/clean
 .PHONY : DynamicObjects/clean
 
 #=============================================================================
@@ -186,7 +186,12 @@ FunctionOverloading/clean:
 # Directory level rules for directory InheritanceAndComposition
 
 # Recursive "all" directory target.
-InheritanceAndComposition/all:
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_car.dir/all
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_combined.dir/all
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_p1.dir/all
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_p2.dir/all
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_p3.dir/all
+InheritanceAndComposition/all: InheritanceAndComposition/CMakeFiles/c14_p4.dir/all
 .PHONY : InheritanceAndComposition/all
 
 # Recursive "preinstall" directory target.
@@ -194,7 +199,12 @@ InheritanceAndComposition/preinstall:
 .PHONY : InheritanceAndComposition/preinstall
 
 # Recursive "clean" directory target.
-InheritanceAndComposition/clean:
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_car.dir/clean
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_combined.dir/clean
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_p1.dir/clean
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_p2.dir/clean
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_p3.dir/clean
+InheritanceAndComposition/clean: InheritanceAndComposition/CMakeFiles/c14_p4.dir/clean
 .PHONY : InheritanceAndComposition/clean
 
 #=============================================================================
@@ -292,20 +302,202 @@ Templates/clean:
 .PHONY : Templates/clean
 
 #=============================================================================
+# Target rules for target DynamicObjects/CMakeFiles/c13_p1.dir
+
+# All Build rule for target.
+DynamicObjects/CMakeFiles/c13_p1.dir/all:
+	$(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/depend
+	$(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=1,2 "Built target c13_p1"
+.PHONY : DynamicObjects/CMakeFiles/c13_p1.dir/all
+
+# Build rule for subdir invocation for target.
+DynamicObjects/CMakeFiles/c13_p1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DynamicObjects/CMakeFiles/c13_p1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : DynamicObjects/CMakeFiles/c13_p1.dir/rule
+
+# Convenience name for target.
+c13_p1: DynamicObjects/CMakeFiles/c13_p1.dir/rule
+.PHONY : c13_p1
+
+# clean rule for target.
+DynamicObjects/CMakeFiles/c13_p1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DynamicObjects/CMakeFiles/c13_p1.dir/build.make DynamicObjects/CMakeFiles/c13_p1.dir/clean
+.PHONY : DynamicObjects/CMakeFiles/c13_p1.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_car.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_car.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=3,4 "Built target c14_car"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_car.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_car.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_car.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_car.dir/rule
+
+# Convenience name for target.
+c14_car: InheritanceAndComposition/CMakeFiles/c14_car.dir/rule
+.PHONY : c14_car
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_car.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_car.dir/build.make InheritanceAndComposition/CMakeFiles/c14_car.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_car.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_combined.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_combined.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=5,6 "Built target c14_combined"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_combined.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_combined.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule
+
+# Convenience name for target.
+c14_combined: InheritanceAndComposition/CMakeFiles/c14_combined.dir/rule
+.PHONY : c14_combined
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_combined.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_combined.dir/build.make InheritanceAndComposition/CMakeFiles/c14_combined.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_combined.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_p1.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p1.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=7,8 "Built target c14_p1"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p1.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule
+
+# Convenience name for target.
+c14_p1: InheritanceAndComposition/CMakeFiles/c14_p1.dir/rule
+.PHONY : c14_p1
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p1.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p1.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p1.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_p2.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p2.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=9,10 "Built target c14_p2"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p2.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule
+
+# Convenience name for target.
+c14_p2: InheritanceAndComposition/CMakeFiles/c14_p2.dir/rule
+.PHONY : c14_p2
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p2.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p2.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p2.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_p3.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p3.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=11,12 "Built target c14_p3"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p3.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule
+
+# Convenience name for target.
+c14_p3: InheritanceAndComposition/CMakeFiles/c14_p3.dir/rule
+.PHONY : c14_p3
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p3.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p3.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p3.dir/clean
+
+#=============================================================================
+# Target rules for target InheritanceAndComposition/CMakeFiles/c14_p4.dir
+
+# All Build rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p4.dir/all:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/depend
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=13,14 "Built target c14_p4"
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p4.dir/all
+
+# Build rule for subdir invocation for target.
+InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InheritanceAndComposition/CMakeFiles/c14_p4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule
+
+# Convenience name for target.
+c14_p4: InheritanceAndComposition/CMakeFiles/c14_p4.dir/rule
+.PHONY : c14_p4
+
+# clean rule for target.
+InheritanceAndComposition/CMakeFiles/c14_p4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f InheritanceAndComposition/CMakeFiles/c14_p4.dir/build.make InheritanceAndComposition/CMakeFiles/c14_p4.dir/clean
+.PHONY : InheritanceAndComposition/CMakeFiles/c14_p4.dir/clean
+
+#=============================================================================
 # Target rules for target Miscellaneous/CMakeFiles/ff1.dir
 
 # All Build rule for target.
 Miscellaneous/CMakeFiles/ff1.dir/all:
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/depend
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff1.dir/build.make Miscellaneous/CMakeFiles/ff1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=1,2 "Built target ff1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=15,16 "Built target ff1"
 .PHONY : Miscellaneous/CMakeFiles/ff1.dir/all
 
 # Build rule for subdir invocation for target.
 Miscellaneous/CMakeFiles/ff1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : Miscellaneous/CMakeFiles/ff1.dir/rule
 
 # Convenience name for target.
@@ -324,14 +516,14 @@ Miscellaneous/CMakeFiles/ff1.dir/clean:
 Miscellaneous/CMakeFiles/ff2.dir/all:
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/depend
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/ff2.dir/build.make Miscellaneous/CMakeFiles/ff2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=3,4 "Built target ff2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=17,18 "Built target ff2"
 .PHONY : Miscellaneous/CMakeFiles/ff2.dir/all
 
 # Build rule for subdir invocation for target.
 Miscellaneous/CMakeFiles/ff2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/ff2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : Miscellaneous/CMakeFiles/ff2.dir/rule
 
 # Convenience name for target.
@@ -350,14 +542,14 @@ Miscellaneous/CMakeFiles/ff2.dir/clean:
 Miscellaneous/CMakeFiles/opv.dir/all:
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/depend
 	$(MAKE) $(MAKESILENT) -f Miscellaneous/CMakeFiles/opv.dir/build.make Miscellaneous/CMakeFiles/opv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=5,6 "Built target opv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles --progress-num=19,20 "Built target opv"
 .PHONY : Miscellaneous/CMakeFiles/opv.dir/all
 
 # Build rule for subdir invocation for target.
 Miscellaneous/CMakeFiles/opv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Miscellaneous/CMakeFiles/opv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/sdk/ThinkingInCpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nalostta/Desktop/sdk/ThinkingInCpp/build/CMakeFiles 0
 .PHONY : Miscellaneous/CMakeFiles/opv.dir/rule
 
 # Convenience name for target.
