@@ -4,3 +4,4 @@ project(DynamicObjects)
 
 add_executable(c13_p1 c13_p1.cpp)
 add_executable(c13_p2 c13_p2.cpp)
+add_executable(c13_p3 c13_p3.cpp PStash.cpp)

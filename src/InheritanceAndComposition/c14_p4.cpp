@@ -32,3 +32,8 @@ public:
         B::f();
     }
 };
+
+int main()
+{
+    return 0;
+}

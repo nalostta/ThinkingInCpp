@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.24)
 
 project(thinking_in_cpp)
 
+set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
 set(SOURCE_DIR src)
 
 add_subdirectory(${SOURCE_DIR}/Constants                    ${CMAKE_BINARY_DIR}/Constants)
